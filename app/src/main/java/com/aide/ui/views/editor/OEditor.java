@@ -645,7 +645,7 @@ public class OEditor extends OConsole {
         }
     }
 
-    public void U2() {
+   /* public void U2() {
         try {
             if (ys) {
                 wu.j6(-1544417520886620591L, this);
@@ -668,7 +668,7 @@ public class OEditor extends OConsole {
                     lastSelectedLine = caretLine;
                 }
                 getEditorModel().BT();
-                for (caretLine = 
+                for (caretLine = */
 /*
 Method generation error in method: com.aide.ui.views.editor.OEditor.U2():void
 jadx.core.utils.exceptions.CodegenException: Error generate insn: PHI: (r0_7 'caretLine' int) = (r0_6 'caretLine' int), (r0_4 'caretLine' int) binds: {(r0_6 'caretLine' int)=B:12:0x0037, (r0_4 'caretLine' int)=B:39:0x00ae} in method: com.aide.ui.views.editor.OEditor.U2():void
