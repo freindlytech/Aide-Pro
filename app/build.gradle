@@ -22,5 +22,5 @@ android {
 
 dependencies {
 	// androidTestCompile'com.google.android.material:822'
-    implementation fileTree(dir: "libs", include: ["*.jar"])
+    externalLibs files('libs/*.jar')
 }
