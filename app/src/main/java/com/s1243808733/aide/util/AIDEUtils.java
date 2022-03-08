@@ -13,7 +13,7 @@ import com.aide.ui.browsers.FileBrowser;
 import com.aide.ui.views.CodeEditText;
 import com.aide.ui.views.SplitView;
 import com.aide.ui.views.editor.OConsole;
-import com.aide.ui.views.editor.OEditor;
+// import com.aide.ui.views.editor.OEditor;
 import com.blankj.utilcode.util.ReflectUtils;
 import com.s1243808733.aide.AideMainActivity;
 import com.s1243808733.util.Utils;
@@ -162,13 +162,7 @@ public class AIDEUtils {
         return (DrawerLayout) getMainActivity().findViewById(2131231163);
     }
 
-    public static OConsole getOConsole() {
-        return (OConsole) ((Object) getOEditorView());
-    }
-
-    public static OEditor getOEditorView() {
-        return (OEditor) getCodeEditText_c();
-    }
+    
 
     public static SharedPreferences getOpenFileService() {
         return Utils.getSp("OpenFileService");
