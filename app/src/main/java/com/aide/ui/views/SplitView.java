@@ -49,7 +49,7 @@ public class SplitView extends ViewGroup {
     private boolean isSwipeEnabled;
     @ru(field = 1306040584426626732L)
    // private a listener;
-    @ru(field = -371747001152055781L)
+   // @ru(field = -371747001152055781L)
     private float verticalSplitRatio;
 
     
