@@ -22,7 +22,7 @@ android {
 }
 
 dependencies {
-	implementation 'com.android.support:multidex:1.0.3'
+	implementation 'com.android.support:multidex:1.
 
 	// androidTestCompile'com.google.android.material:822'
       implementation fileTree(dir: 'libs', include: ['*.jar'])
